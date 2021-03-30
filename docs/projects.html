@@ -1,0 +1,414 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="PBPL280 Open Source Public Policy" href="syllabus.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="syllabus.html">
+   Syllabus
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Projects
+  </a>
+ </li>
+</ul>
+
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/projects.md.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+    
+</div>
+        <!-- Source interaction buttons -->
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#overview">
+   Overview
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#project-grading">
+   Project Grading
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#documentation">
+     Documentation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#presentation">
+     Presentation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#individual-commits-prs">
+     Individual commits/PRs
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#peer-evaluation">
+     Peer evaluation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#self-evaluation">
+     Self evaluation
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#project-portfolio">
+   Project Portfolio
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#neighborhood-change-and-schools">
+     Neighborhood Change and Schools
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#components-initial-ideas">
+       Components (Initial Ideas)
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#solution-manual-for-gds">
+     Solution Manual for GDS
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id1">
+       Components (Initial Ideas)
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#spatial-inequality-dynamics">
+     Spatial Inequality Dynamics
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id2">
+       Components (Initial Ideas)
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#prison-footprint">
+     Prison Footprint
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id3">
+       Components (Initial Ideas)
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#heirarchical-segregation">
+     Heirarchical Segregation
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="projects">
+<h1>Projects<a class="headerlink" href="#projects" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>The course project provides the opportunity to blend your newly acquired
+computational skills with the theories, methods, and models of regional and
+spatial analysis. The initial weeks of the quarter will provide a primer in
+open source tools. After that, the focus of the course switches to project
+work. Course meetings will then be dedicated to concentrated collaboration on
+the group project, which should supplement work being done outside the class
+meetings.</p>
+</div>
+<div class="section" id="project-grading">
+<h2>Project Grading<a class="headerlink" href="#project-grading" title="Permalink to this headline">¶</a></h2>
+<p>Each student’s project grade constitutes 50 percent of their overall grade for the course. The project grade for a student will be determined using the following weighting:</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Component</p></th>
+<th class="head"><p>Weight</p></th>
+<th class="head"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Documentation</p></td>
+<td><p>35</p></td>
+<td><p>Group</p></td>
+</tr>
+<tr class="row-odd"><td><p>Presentation</p></td>
+<td><p>15</p></td>
+<td><p>Group</p></td>
+</tr>
+<tr class="row-even"><td><p>Individual commits/PRs</p></td>
+<td><p>30</p></td>
+<td><p>Individual</p></td>
+</tr>
+<tr class="row-odd"><td><p>Peer evaluation</p></td>
+<td><p>15</p></td>
+<td><p>Individual</p></td>
+</tr>
+<tr class="row-even"><td><p>Self evaluation</p></td>
+<td><p>5</p></td>
+<td><p>Individual</p></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="documentation">
+<h3>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h3>
+<p>For each group, final documentation for the course project will be required. This documentation will consist of five components</p>
+<ol class="simple">
+<li><p>Project proposal (5 points,  <em>Due April 16 5pm</em>)</p>
+<ol class="simple">
+<li><p>identification of the team</p></li>
+<li><p>identification of data sets that will be used</p></li>
+<li><p>at least 5 references from academic literature related to the topic</p></li>
+<li><p>draft list of tasks and two milestones on GitHub Project Repository</p></li>
+</ol>
+</li>
+<li><p>Milestone 1 (5 points <em>Due April 28</em>)</p></li>
+<li><p>Milestone 2 (5 points <em>Due May 19</em>)</p></li>
+<li><p>Final paper that reports on the research findings (10 points <em>Due June 4</em>)</p></li>
+<li><p>Project reproducibility documentation (10 points <em>Due June 4</em>)</p></li>
+</ol>
+<p>The final paper should take the form of a manuscript that could be submitted
+for publication. The project reproducibility documentation will is to be contained
+on the project repository and allow an interested user (like the instructor) to
+reproduce the analysis presented in final paper.</p>
+</div>
+<div class="section" id="presentation">
+<h3>Presentation<a class="headerlink" href="#presentation" title="Permalink to this headline">¶</a></h3>
+<p>Each group will be required to present their findings on the date of the final examination.</p>
+</div>
+<div class="section" id="individual-commits-prs">
+<h3>Individual commits/PRs<a class="headerlink" href="#individual-commits-prs" title="Permalink to this headline">¶</a></h3>
+<p>Based on analysis of the git logs for the project, the instructor will evaluate the contributions of each individual to the project. Contributions can be of the following forms:</p>
+<ul class="simple">
+<li><p>accepted commits</p></li>
+<li><p>pull requests</p></li>
+<li><p>issues reported</p></li>
+<li><p>issues closed</p></li>
+<li><p>commenting on issues/pull requests</p></li>
+</ul>
+</div>
+<div class="section" id="peer-evaluation">
+<h3>Peer evaluation<a class="headerlink" href="#peer-evaluation" title="Permalink to this headline">¶</a></h3>
+<p>Each student will be required to complete a confidential evaluation of their team members.</p>
+</div>
+<div class="section" id="self-evaluation">
+<h3>Self evaluation<a class="headerlink" href="#self-evaluation" title="Permalink to this headline">¶</a></h3>
+<p>Each student will be required to complete a self evaluation.</p>
+</div>
+</div>
+<div class="section" id="project-portfolio">
+<h2>Project Portfolio<a class="headerlink" href="#project-portfolio" title="Permalink to this headline">¶</a></h2>
+<p>The list of potential projects follows. Students will submit a ranked
+preference for working on these, and project assignments will be made to
+optimize matching.</p>
+<div class="section" id="neighborhood-change-and-schools">
+<h3>Neighborhood Change and Schools<a class="headerlink" href="#neighborhood-change-and-schools" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="components-initial-ideas">
+<h4>Components (Initial Ideas)<a class="headerlink" href="#components-initial-ideas" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Enhance GeoSNAP to integrate schools into neighborhood clustering algorithms</p></li>
+<li><p>Develop analytics to measure neighborhood change</p></li>
+<li><p>Develop analytics to measure school change</p></li>
+<li><p>Integrative analysis of neighborhood and school change</p></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="solution-manual-for-gds">
+<h3>Solution Manual for GDS<a class="headerlink" href="#solution-manual-for-gds" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id1">
+<h4>Components (Initial Ideas)<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Develop code solutions for the book <span class="xref myst">Geographical Data Science with Python</span></p></li>
+<li><p>Write narrative answers to the solutions</p></li>
+<li><p>Design interactive solution manual (Binder)</p></li>
+<li><p>Draft solution manual</p></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="spatial-inequality-dynamics">
+<h3>Spatial Inequality Dynamics<a class="headerlink" href="#spatial-inequality-dynamics" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id2">
+<h4>Components (Initial Ideas)<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="prison-footprint">
+<h3>Prison Footprint<a class="headerlink" href="#prison-footprint" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id3">
+<h4>Components (Initial Ideas)<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="heirarchical-segregation">
+<h3>Heirarchical Segregation<a class="headerlink" href="#heirarchical-segregation" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="syllabus.html" title="previous page">PBPL280 Open Source Public Policy</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Sergio Rey<br/>
+        
+            &copy; Copyright 2021, Sergio Rey.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    <script src="_static/js/index.js"></script>
+    
+  </body>
+</html>

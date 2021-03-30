@@ -1,0 +1,576 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>PBPL280 Open Source Public Policy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Projects" href="projects.html" />
+    <link rel="prev" title="PBPL280 Open Source Public Policy" href="index.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Syllabus
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="projects.html">
+   Projects
+  </a>
+ </li>
+</ul>
+
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/syllabus.md.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+    
+</div>
+        <!-- Source interaction buttons -->
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#overview">
+   Overview
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#organization">
+     Organization
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#learning-outcomes">
+     Learning Outcomes
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#prerequisite">
+   Prerequisite
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#grading">
+   Grading
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#exercises-50">
+     Exercises (50%)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#project-50">
+     Project (50%)
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#policies">
+   Policies
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#schedule-planned">
+   Schedule (Planned)
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#week-1-march-31">
+     Week 1: March 31
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#tools-and-practices">
+       Tools and Practices
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#exercises-project">
+       Exercises/Project
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#week-2-april-7">
+     Week 2: April 7
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id1">
+       Tools and Practices
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id2">
+       Exercises/Project
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#week-3-april-14">
+     Week 3: April 14
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id3">
+       Tools and Practices
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id4">
+       Exercises/Project
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#week-4-april-21">
+     Week 4: April 21
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id5">
+       Tools and Practices
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id6">
+       Exercises/Project
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#week-5-april-28">
+     Week 5: April 28
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id7">
+       Tools and Practices
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id8">
+       Exercises/Project
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#week-6-may-5">
+     Week 6: May 5
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id9">
+       Exercises/Project
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#week-7-may-12">
+     Week 7: May 12
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id10">
+       Exercises/Project
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#week-8-may-19">
+     Week 8: May 19
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id11">
+       Exercises/Project
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#week-9-may-26">
+     Week 9: May 26
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#week-10-june-2">
+     Week 10: June 2
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id12">
+       Exercises/Project
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="pbpl280-open-source-public-policy">
+<h1>PBPL280 Open Source Public Policy<a class="headerlink" href="#pbpl280-open-source-public-policy" title="Permalink to this headline">¶</a></h1>
+<p>Spring 2021<br />
+Professor <a class="reference external" href="https://sergerey.org">Sergio Rey</a></p>
+<p>Wednesdays 5:00-7:50 pm<br />
+On-line</p>
+<p>Office Hours: Monday 3:30-4:30 pm<br />
+On-line</p>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>This course offers an introduction to <a class="reference external" href="https://opensource.com/resources/what-open-source">open
+source</a> tools and practices
+for public policy. Much of today’s world is dominated by “big data”, data
+science, machine learning, and artificial intelligence, and public policy is no
+exception. This requires that public policy students have the capacity to
+understand and analyze quantitative information. At the same time, there are
+increasing demands for openness and transparency in both the <a class="reference external" href="https://obamawhitehouse.archives.gov/open/documents/open-government-directive">public policy
+arena</a>
+as well as in the <a class="reference external" href="https://how-to-open.science/analyze/reproducibility/">social
+sciences</a>.</p>
+<p>This course is designed to equip students with the skills and practices to fully
+engage with, and contribute to, these developments. It relies on open source
+software which is essential since it provides access to free, high-quality,
+cross-platform tools. At the same time, free availability does not necessarily
+translate into skill acquisition, and a key goal of this course is to flatten the
+learning curve for students discovering these new tools and practices.</p>
+<div class="section" id="organization">
+<h3>Organization<a class="headerlink" href="#organization" title="Permalink to this headline">¶</a></h3>
+<p>The course is structured as a blending of a seminar and studio. In the studio component of the course, students will be exposed to open source tools (software), technologies (github, CI/CD), and practices (collaborative development). In the seminar component of the course, the literature surrounding the course project will be discussed and evaluated to shape the empirical project which will form the key focus of the second half of the quarter.</p>
+</div>
+<div class="section" id="learning-outcomes">
+<h3>Learning Outcomes<a class="headerlink" href="#learning-outcomes" title="Permalink to this headline">¶</a></h3>
+<p>By the end of the quarter, students will</p>
+<ul class="simple">
+<li><p>acquire competency in using open source software and tools for their own research and public policy projects</p></li>
+<li><p>gain experience in collaborative open source and open science best practices</p></li>
+<li><p>apply these skill sets to contribute to an empirical social science research or public policy analysis project</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="prerequisite">
+<h2>Prerequisite<a class="headerlink" href="#prerequisite" title="Permalink to this headline">¶</a></h2>
+<p>Previous exposure to a scripint language (Python, R, stata) and quantitative analysis at the level of <a class="reference external" href="https://qm4pp.com/syllabus.html">PBPL210</a> are assumed. Primer materials will be provided on these areas.</p>
+</div>
+<div class="section" id="grading">
+<h2>Grading<a class="headerlink" href="#grading" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="exercises-50">
+<h3>Exercises (50%)<a class="headerlink" href="#exercises-50" title="Permalink to this headline">¶</a></h3>
+<p>A series of five exercises (10% each) will be assigned that provide opportunities to further develop skills in open source tooling and practices.</p>
+<ol class="simple">
+<li><p>GitHub account</p></li>
+<li><p>ssh</p></li>
+<li><p>CV</p></li>
+<li><p>Pull Request</p></li>
+<li><p>Branching</p></li>
+</ol>
+</div>
+<div class="section" id="project-50">
+<h3>Project (50%)<a class="headerlink" href="#project-50" title="Permalink to this headline">¶</a></h3>
+<p>This course is organized as a studio in which each student will contribute to a quarter-long project that requires the application of the various open source technologies, packages, and practices that are introduced.</p>
+<p>Details on the potential projects will be provided in the first week of the quarter.</p>
+</div>
+</div>
+<div class="section" id="policies">
+<h2>Policies<a class="headerlink" href="#policies" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="schedule-planned">
+<h2>Schedule (Planned)<a class="headerlink" href="#schedule-planned" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="week-1-march-31">
+<h3>Week 1: March 31<a class="headerlink" href="#week-1-march-31" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="tools-and-practices">
+<h4>Tools and Practices<a class="headerlink" href="#tools-and-practices" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Course Introduction</p></li>
+<li><p><a class="reference external" href="https://code.visualstudio.com/docs">Setting up</a></p></li>
+<li><p><a class="reference external" href="http://swcarpentry.github.io/shell-novice/">Introduction to shells</a></p></li>
+</ul>
+</div>
+<div class="section" id="exercises-project">
+<h4>Exercises/Project<a class="headerlink" href="#exercises-project" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>Exericse 1: GitHub</strong></p></li>
+<li><p><em><a class="reference internal" href="projects.html"><span class="doc std std-doc">Project Descriptions</span></a></em></p></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="week-2-april-7">
+<h3>Week 2: April 7<a class="headerlink" href="#week-2-april-7" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id1">
+<h4>Tools and Practices<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="http://swcarpentry.github.io/git-novice/">Version control with git</a></p></li>
+</ul>
+</div>
+<div class="section" id="id2">
+<h4>Exercises/Project<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><em>Project Teams</em></p></li>
+<li><p><strong>Exercise 2: Markdown</strong></p></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="week-3-april-14">
+<h3>Week 3: April 14<a class="headerlink" href="#week-3-april-14" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id3">
+<h4>Tools and Practices<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes">Remote repositories</a></p></li>
+</ul>
+</div>
+<div class="section" id="id4">
+<h4>Exercises/Project<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><em>Project Scoping</em></p></li>
+<li><p><strong>Exericse 3: ssh</strong></p></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="week-4-april-21">
+<h3>Week 4: April 21<a class="headerlink" href="#week-4-april-21" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id5">
+<h4>Tools and Practices<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="http://swcarpentry.github.io/git-novice/08-collab/index.html">Git Collaboration</a></p></li>
+</ul>
+</div>
+<div class="section" id="id6">
+<h4>Exercises/Project<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>Exericse 4: CVs</strong></p></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="week-5-april-28">
+<h3>Week 5: April 28<a class="headerlink" href="#week-5-april-28" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id7">
+<h4>Tools and Practices<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://the-turing-way.netlify.app/reproducible-research/make.html">Reproducibility</a></p></li>
+</ul>
+</div>
+<div class="section" id="id8">
+<h4>Exercises/Project<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>Exercise 5: Pull Requests</strong></p></li>
+<li><p><em>Milestone 1 Evaluation</em></p></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="week-6-may-5">
+<h3>Week 6: May 5<a class="headerlink" href="#week-6-may-5" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id9">
+<h4>Exercises/Project<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><em>Project Proposal</em></p></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="week-7-may-12">
+<h3>Week 7: May 12<a class="headerlink" href="#week-7-may-12" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id10">
+<h4>Exercises/Project<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><em>Project Studio 1</em></p></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="week-8-may-19">
+<h3>Week 8: May 19<a class="headerlink" href="#week-8-may-19" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id11">
+<h4>Exercises/Project<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><em>Project Studio 2</em></p></li>
+<li><p><em>Milestone 2 Evaluation</em></p></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="week-9-may-26">
+<h3>Week 9: May 26<a class="headerlink" href="#week-9-may-26" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><em>Project Studio 3</em></p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="week-10-june-2">
+<h3>Week 10: June 2<a class="headerlink" href="#week-10-june-2" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id12">
+<h4>Exercises/Project<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><em>Project Studio 4</em></p></li>
+<li><p><em><strong>Project Documentation Due June 5, 5pm</strong></em></p></li>
+<li><p><em><strong>Project Presentation Due June 5, 5pm</strong></em></p></li>
+</ul>
+<p>http://swcarpentry.github.io/shell-novice/</p>
+<p>http://swcarpentry.github.io/git-novice/</p>
+<p>https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes</p>
+<p>http://swcarpentry.github.io/git-novice/08-collab/index.html</p>
+</div>
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="index.html" title="previous page">PBPL280 Open Source Public Policy</a>
+    <a class='right-next' id="next-link" href="projects.html" title="next page">Projects</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Sergio Rey<br/>
+        
+            &copy; Copyright 2021, Sergio Rey.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    <script src="_static/js/index.js"></script>
+    
+  </body>
+</html>
