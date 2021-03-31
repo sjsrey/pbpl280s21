@@ -91,7 +91,7 @@ optimize matching.
 - Implement a web-based version of [STARS: Space-Time Analysis of Regional
   Systems](https://github.com/sjsrey/stars)
 - Rely on [PySAL](http://pysal.org/) for existing analytics
-- Use CGS Quilt as data infrastructure
+- Use [CGS Quilt](https://open.quiltdata.com/b/spatial-ucr) as data infrastructure
 - Evaluate alternative web-based visualization tool kits
 - Deliver a prototype
 - Test on a new spatial inequality data set

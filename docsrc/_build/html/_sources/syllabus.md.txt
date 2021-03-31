@@ -68,12 +68,12 @@ Details on the potential projects will be provided in the first week of the quar
 ### Week 1: March 31
 #### Tools and Practices
 - Course Introduction
-- [Setting up](https://code.visualstudio.com/docs)
+- [Compute Environment](https://cgshub.space)
 - [Introduction to shells](http://swcarpentry.github.io/shell-novice/)
 
 #### Exercises/Project
-- **Exericse 1: GitHub**
-- *[Project Descriptions](projects.md)*
+- [**Exericse 1: GitHub**](exercise1.md)
+- [*Project Descriptions*](projects.md)
 
 -------------------------------------------------------------------------------
 ### Week 2: April 7
@@ -91,6 +91,7 @@ Details on the potential projects will be provided in the first week of the quar
 
 #### Tools and Practices
 - [Remote repositories](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
+- [Remote editing](https://code.visualstudio.com/docs)
 
 #### Exercises/Project
 - *Project Scoping*
