@@ -73,7 +73,7 @@ optimize matching.
 
 #### Components (Initial Ideas)
 
-- Enhance GeoSNAP to integrate schools into neighborhood clustering algorithms
+- Enhance [GeoSNAP](https://github.com/spatialucr/geosnap) to integrate schools into neighborhood clustering algorithms
 - Develop analytics to measure neighborhood change
 - Develop analytics to measure school change
 - Integrative analysis of neighborhood and school change
@@ -81,19 +81,30 @@ optimize matching.
 ----
 ### Solution Manual for GDS ###
 #### Components (Initial Ideas)
-- Develop code solutions for the book [Geographical Data Science with Python]()
+- Develop code solutions for the book [Geographical Data Science with Python](https://geographicdata.science/book/intro.html)
 - Write narrative answers to the solutions
 - Design interactive solution manual (Binder)
 - Draft solution manual
 ----
 ### Spatial Inequality Dynamics
-
 #### Components (Initial Ideas)
+- Implement a web-based version of [STARS: Space-Time Analysis of Regional
+  Systems](https://github.com/sjsrey/stars)
+- Rely on [PySAL](http://pysal.org/) for existing analytics
+- Use CGS Quilt as data infrastructure
+- Evaluate alternative web-based visualization tool kits
+- Deliver a prototype
+- Test on a new spatial inequality data set
+
 ----
 ### Prison Footprint ###
 
 #### Components (Initial Ideas)
+- Replicate [1.5 Million Missing Black Men](https://www.nytimes.com/interactive/2015/04/20/upshot/missing-black-men.html)
+- Expand for refined geographical scales
+- Consider different racial/ethnic groups
+- Consider longer time frames
+
 ----
-### Heirarchical Segregation ###
 
 
