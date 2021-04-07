@@ -85,7 +85,7 @@ Details on the potential projects will be provided in the first week of the quar
 
 #### Exercises/Project
 - *Project Teams*
-- **Exercise 2: Markdown**
+- **[Exercise 2: Markdown](exercise2.md)**
 
 -------------------------------------------------------------------------------
 ### Week 3: April 14
