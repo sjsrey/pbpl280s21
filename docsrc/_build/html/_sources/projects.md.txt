@@ -107,7 +107,7 @@ optimize matching.
 
 ----
 
-### Environental Justice & Primary Education ###
+### Environmental Justice & Primary Education ###
 #### Components (Initial Ideas)
 - Analyze the spatial relationship between school demography, 
 - Combine data from the [EPA](https://open.quiltdata.com/b/spatial-ucr/tree/epa/ejscreen/) and the [NCES](https://open.quiltdata.com/b/spatial-ucr/tree/nces/schools/) from CGS's quilt bucket, along with [SEDA](https://edopportunity.org/) to create a school-level analysis

@@ -91,12 +91,14 @@ Details on the potential projects will be provided in the first week of the quar
 ### Week 3: April 14
 
 #### Tools and Practices
+- [ssh](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 - [Remote repositories](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
-- [Remote editing](https://code.visualstudio.com/docs)
+- **[Exericse 3: ssh](exercise3.md)**
 
-#### Exercises/Project
+#### Project
+- [Project Teams](projectteams.md)
 - *Project Scoping*
-- **Exericse 3: ssh**
+- GeoSNAP Tutorial
 
 -------------------------------------------------------------------------------
 ### Week 4: April 21
