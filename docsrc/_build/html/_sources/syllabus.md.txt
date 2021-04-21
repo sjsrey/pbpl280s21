@@ -118,18 +118,18 @@ Details on the potential projects will be provided in the first week of the quar
 
 #### Exercises/Project
 
-- **Exercise 5: Pull Requests**
+- **Exericse 4: CVs: Markdown, LaTeX, Pandoc**
 -------------------------------------------------------------------------------
 
 ### Week 6: May 5
 #### Exercises/Project
 - *Project Proposal*
-
 -------------------------------------------------------------------------------
 ### Week 7: May 12
 
 #### Exercises/Project
 - *Project Studio*
+- **Exercise 5: Pull Requests**
 -------------------------------------------------------------------------------
 ### Week 8: May 19
 
