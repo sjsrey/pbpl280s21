@@ -97,7 +97,6 @@ Details on the potential projects will be provided in the first week of the quar
 
 #### Project
 - [Project Teams](projectteams.md)
-- *Project Scoping*
 - GeoSNAP Tutorial
 
 -------------------------------------------------------------------------------
@@ -108,6 +107,7 @@ Details on the potential projects will be provided in the first week of the quar
 
 #### Exercises/Project
 
+- *Project Scoping*
 - **Exericse 4: CVs: Markdown, LaTeX, Pandoc**
 
 -------------------------------------------------------------------------------
@@ -119,7 +119,6 @@ Details on the potential projects will be provided in the first week of the quar
 #### Exercises/Project
 
 - **Exercise 5: Pull Requests**
-- *Milestone 1 Evaluation*
 -------------------------------------------------------------------------------
 
 ### Week 6: May 5
@@ -130,25 +129,21 @@ Details on the potential projects will be provided in the first week of the quar
 ### Week 7: May 12
 
 #### Exercises/Project
-- *Project Studio 1*
+- *Project Studio*
 -------------------------------------------------------------------------------
 ### Week 8: May 19
 
-#### Exercises/Project
 
-- *Project Studio 2*
+- *Project Studio*
 
-- *Milestone 2 Evaluation*
 -------------------------------------------------------------------------------
 ### Week 9: May 26
 
-- *Project Studio 3*
+- *Project Studio*
 
 -------------------------------------------------------------------------------
 ### Week 10: June 2
 
-#### Exercises/Project
-
-- *Project Studio 4*
-- ***Project Documentation Due June 5, 5pm***
-- ***Project Presentation Due June 5, 5pm***
+- *Project Studio*
+- ***Project Documentation Due June 4, 5pm***
+- ***Project Presentation Due June 4, 5pm***

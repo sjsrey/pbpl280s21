@@ -1,24 +1,27 @@
 # Project Teams
 
-
 ## Neighborhoods and School Dynamics
-- hwelc
-- evill
-- sstac
-- nnasr
-- jchen
+jchen
+nnasr
+erami
+druck
+sstac
+hwelc
+calfa
 
 ## Spatial Inequality
-- rpena
-- bpham
-- pcarl
-- calfa
-- mrodr
+pcarl
+rpena
+bpham
+bpich
+arang
+mrodr
+mshee
 
 ## Education and Environmental Justice
-- pjutu
-- afire
-- jolgu
-- evill
-- wnoor
-- lsala
+pjutu
+wnoor
+jolgu
+lsala
+evill
+afire

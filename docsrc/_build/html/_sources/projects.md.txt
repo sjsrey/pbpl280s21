@@ -24,18 +24,16 @@ Each student's project grade constitutes 50 percent of their overall grade for t
 
 ### Documentation
 
-For each group, final documentation for the course project will be required. This documentation will consist of five components
-1. Project proposal (5 points,  *Due April 16 5pm*)
+For each group, final documentation for the course project will be required. This documentation will consist of the following components
+1. Project proposal (5 points,  *Due May 5 5pm*)
 
    1. identification of the team
    1. identification of data sets that will be used
    1. at least 5 references from academic literature related to the topic
    1. draft list of tasks and two milestones on GitHub Project Repository
 
-2. Milestone 1 (5 points *Due April 28*)
-3. Milestone 2 (5 points *Due May 19*)
-4. Final paper that reports on the research findings (10 points *Due June 4*)
-5. Project reproducibility documentation (10 points *Due June 4*)
+4. Final paper that reports on the research findings (20 points *Due June 4 5pm*)
+5. Project reproducibility documentation (10 points *Due June 4 5pm*)
 
 The final paper should take the form of a manuscript that could be submitted
 for publication. The project reproducibility documentation will is to be contained
@@ -47,7 +45,7 @@ reproduce the analysis presented in final paper.
 
 Each group will be required to present their findings on the date of the final examination.
 
-### Individual commits/PRs
+   ### Individual commits/PRs
 
 Based on analysis of the git logs for the project, the instructor will evaluate the contributions of each individual to the project. Contributions can be of the following forms:
 
@@ -78,13 +76,18 @@ optimize matching.
 - Develop analytics to measure school change
 - Integrative analysis of neighborhood and school change
 
-----
-### Solution Manual for GDS ###
-#### Components (Initial Ideas)
-- Develop code solutions for the book [Geographical Data Science with Python](https://geographicdata.science/book/intro.html)
-- Write narrative answers to the solutions
-- Design interactive solution manual (Binder)
-- Draft solution manual
+#### Team
+```
+jchen  
+nnasr  
+erami
+druck
+sstac
+hwelc
+calfa
+```
+
+
 ----
 ### Spatial Inequality Dynamics
 #### Components (Initial Ideas)
@@ -96,14 +99,17 @@ optimize matching.
 - Deliver a prototype
 - Test on a new spatial inequality data set
 
-----
-### Prison Footprint ###
+#### Team
+```
+pcarl
+rpena
+bpham
+bpich
+arang
+mrodr
+mshee
+```
 
-#### Components (Initial Ideas)
-- Replicate [1.5 Million Missing Black Men](https://www.nytimes.com/interactive/2015/04/20/upshot/missing-black-men.html)
-- Expand for refined geographical scales
-- Consider different racial/ethnic groups
-- Consider longer time frames
 
 ----
 
@@ -114,3 +120,12 @@ optimize matching.
 - Examine whether schools with different demographic characteristics are exposed to different levels of environmental quality, and whether a relationship exists between educational opportunity and healthy environments
 - Develop an interactive notebook structured as a article/narrative that describes your findings to a general audience
 
+#### Team
+```
+pjutu
+wnoor
+jolgu
+lsala
+evill
+afire
+```
