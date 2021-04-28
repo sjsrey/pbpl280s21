@@ -1,4 +1,4 @@
-# PBPL280S21 Exercise 4: ssh
+# PBPL280S21 Exercise 4: git collaboration 
 
 
 1. Fork the relevant repository for your team's project.
