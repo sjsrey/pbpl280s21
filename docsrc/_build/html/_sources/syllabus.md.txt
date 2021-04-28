@@ -103,7 +103,8 @@ Details on the potential projects will be provided in the first week of the quar
 ### Week 4: April 21
 
 #### Tools and Practices
-- [GeoSNAP demo](https://spatialucr.github.io/geosnap-guide/content/home.html)
+- [GeoSNAP](https://spatialucr.github.io/geosnap-guide/content/home.html)
+- [Download link for demo notebook](https://github.com/sjsrey/pbpl280s21/blob/master/docsrc/geosnap.ipynb)
 
 #### Exercises/Project
 
