@@ -22,5 +22,5 @@ help:
 github:
 	@make html
 	@cp -a _build/html/. ../docs
-	open ../docs/index.html
+	see ../docs/index.html
 

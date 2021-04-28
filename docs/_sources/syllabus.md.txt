@@ -103,25 +103,25 @@ Details on the potential projects will be provided in the first week of the quar
 ### Week 4: April 21
 
 #### Tools and Practices
-- [Git Collaboration](http://swcarpentry.github.io/git-novice/08-collab/index.html)
+- [GeoSNAP demo](https://spatialucr.github.io/geosnap-guide/content/home.html)
 
 #### Exercises/Project
 
 - *Project Scoping*
-- **Exericse 4: CVs: Markdown, LaTeX, Pandoc**
 
 -------------------------------------------------------------------------------
 ### Week 5: April 28
 
 #### Tools and Practices
-- [Reproducibility](https://the-turing-way.netlify.app/reproducible-research/make.html)
+- [Git Collaboration](http://swcarpentry.github.io/git-novice/08-collab/index.html)
 
 #### Exercises/Project
 
-- **Exericse 4: CVs: Markdown, LaTeX, Pandoc**
+- **[Exericse 4: git collaboration](exercise4.md)**
 -------------------------------------------------------------------------------
 
 ### Week 6: May 5
+- [Reproducibility](https://the-turing-way.netlify.app/reproducible-research/make.html)
 #### Exercises/Project
 - *Project Proposal*
 -------------------------------------------------------------------------------
