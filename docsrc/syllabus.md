@@ -114,23 +114,27 @@ Details on the potential projects will be provided in the first week of the quar
 ### Week 5: April 28
 
 #### Tools and Practices
-- [Git Collaboration](http://swcarpentry.github.io/git-novice/08-collab/index.html)
 
-#### Exercises/Project
-
-- **[Exericse 4: git collaboration](exercise4.md)**
+- [Geoprocessing and Visualization with Python](https://github.com/sjsrey/pbpl280s21/blob/master/docsrc/geoprocessing_crash.ipynb) (Click the Download button on that link if the file doesn't render).
+- [STARS Demo](https://github.com/sjsrey/stars)
 -------------------------------------------------------------------------------
 
 ### Week 6: May 5
-- [Reproducibility](https://the-turing-way.netlify.app/reproducible-research/make.html)
+
+#### Tools and Practices
+- *Project Studio*
+- [Git Collaboration](http://swcarpentry.github.io/git-novice/08-collab/index.html)
 #### Exercises/Project
-- *Project Proposal*
+- *Project Proposal Due*
+- **[Out: Exericse 4: git collaboration](exercise4.md)**
+
 -------------------------------------------------------------------------------
 ### Week 7: May 12
 
+#### Tools and Practices
+- [Reproducibility](https://the-turing-way.netlify.app/reproducible-research/make.html)
 #### Exercises/Project
-- *Project Studio*
-- **Exercise 5: Pull Requests**
+- **Exercise 5: Reproducibility**
 -------------------------------------------------------------------------------
 ### Week 8: May 19
 
