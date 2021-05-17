@@ -134,17 +134,18 @@ Details on the potential projects will be provided in the first week of the quar
 #### Tools and Practices
 - [Reproducibility](https://the-turing-way.netlify.app/reproducible-research/make.html)
 #### Exercises/Project
-- **Exercise 5: Reproducibility**
 -------------------------------------------------------------------------------
 ### Week 8: May 19
 
 
 - *Project Studio*
 
+- **Exercise 5 Out: git conflicts**
 -------------------------------------------------------------------------------
 ### Week 9: May 26
 
 - *Project Studio*
+- **Exercise 5 Due**
 
 -------------------------------------------------------------------------------
 ### Week 10: June 2

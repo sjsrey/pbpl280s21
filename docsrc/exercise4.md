@@ -13,4 +13,4 @@
 
 7. From your fork, issue a pull request into the upstream repository.
 
-**Due: May 12, 5pm pst**
+**Due: May 19, 5pm pst**
