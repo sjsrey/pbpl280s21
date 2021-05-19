@@ -139,8 +139,8 @@ Details on the potential projects will be provided in the first week of the quar
 
 
 - *Project Studio*
+- **[Out: Exercise 5: git conflicts](exercise5.md)**
 
-- **Exercise 5 Out: git conflicts**
 -------------------------------------------------------------------------------
 ### Week 9: May 26
 
